@@ -2,7 +2,7 @@ Authors: Ioan Robert Scumpu, Cristi Popan
 
 Title: Motion detector using ESP32 with PIR sensor
 
-Description: Motion detector using the ESP32 board with the HC-SR501 PIR sensor. Detects motion and displays a corresponding message. Scans continuously and displays the real time detection status. I chose the ESP32 board because it has built in WiFi and Bluetooth capabilities.
+Description: Motion detector using the ESP32 board with the HC-SR501 PIR sensor. Detects motion and displays a corresponding message via mobile. Scans continuously and displays the real time detection status. I chose the ESP32 board because it has built in WiFi and Bluetooth capabilities.
 
 Components:
 Board:
@@ -17,6 +17,7 @@ Cables:
 
 Software:
 - Arduino IDE (https://www.arduino.cc/en/software/)
+- Android Studio
 - ESP32 for Arduino IDE tutorial (https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
 
 Setup and build:
@@ -32,3 +33,4 @@ Running:
 - The board should go automatically in flash mode when uploading the code via Arduino IDE, but in case it doesn't, follow these steps:
 - Hold the RESET button before and during the uploading via Arduino IDE until the "Connecting ....." message appears
 - Go to the Serial Monitor in order to see the status of the motion detection.
+- Connect your phone to the same network as the board and open the application.
